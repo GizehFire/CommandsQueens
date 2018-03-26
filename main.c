@@ -52,9 +52,9 @@ int main(int argc, char **argv) {
 	
 	printf("\nAllegro-Version: %d.%d", ALLEGRO_VERSION,ALLEGRO_SUB_VERSION);
 	
-	printf("\n Farbtiefe: %d", get_color_depth());
+	printf("\Farbtiefe: %d", get_color_depth());
 	
-	// allegro_message("Hi");
+	allegro_message("Hi");
 	
 	
 	while((!key[KEY_ESC]) && (!close_button_pressed));	/*** Warte auf Tastendruck ***/
