@@ -52,7 +52,7 @@ int main(int argc, char **argv) {
 	
 	// printf("\nAllegro-Version: %d.%d", ALLEGRO_VERSION,ALLEGRO_SUB_VERSION);
 	
-	printf("\Farbtiefe: %d", get_color_depth());
+	printf("\nFarbtiefe: %d", get_color_depth());
 	
 	allegro_message("Hi");
 	
