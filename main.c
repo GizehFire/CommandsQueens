@@ -50,7 +50,7 @@ int main(int argc, char **argv) {
 		
 	printf("\nYear %d, month %d, day %d\n",year, month, day);
 	
-	printf("\nAllegro-Version: %d.%d", ALLEGRO_VERSION,ALLEGRO_SUB_VERSION);
+	// printf("\nAllegro-Version: %d.%d", ALLEGRO_VERSION,ALLEGRO_SUB_VERSION);
 	
 	printf("\Farbtiefe: %d", get_color_depth());
 	
@@ -58,9 +58,7 @@ int main(int argc, char **argv) {
 	
 	
 	while((!key[KEY_ESC]) && (!close_button_pressed));	/*** Warte auf Tastendruck ***/
-	
-//	allegro_exit();
-	
+		
 	
 } END_OF_MAIN();
 
